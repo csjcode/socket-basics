@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/csjcode/socket-basics/issues"
   },
-  "homepage": "https://github.com/csjcode/socket-basics#readme"
+  "homepage": "https://github.com/csjcode/socket-basics#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
