@@ -7,6 +7,7 @@ console.log(now.format('x'));
 console.log(now.valueOf());
 
 var timestamp = 1458618116547;
+
 var timestampMoment = moment.utc(timestamp);
 
 console.log(timestampMoment.local().format('h:mm a'));
