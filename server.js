@@ -10,6 +10,7 @@ app.use(express.static(__dirname + '/public'));
 var clientInfo = {};
 
 // Sends current users to provided socket
+// heroku site: 
 
 function sendCurrentUsers(socket) {
    var info = clientInfo[socket.id];
