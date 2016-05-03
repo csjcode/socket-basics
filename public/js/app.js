@@ -21,9 +21,9 @@ socket.on('message',function (message) {
    console.log('New message:');
    console.log(message.text);
 
-   $message.append('<p><strong>' + message.name + ' ' + momentTimestamp.local().format('h:mm a') + '</strong></p>');
-   $message.append('<p>' + message.text + '</p>');
-   $messages.append($message);
+   $message.prepend('<p><strong>' + message.name + ' ' + momentTimestamp.local().format('h:mm a') + '</strong></p>');
+   $message.prepend('<p>' + message.text + '</p>');
+   $messages.prepend($message);
 });
 
 // handles submitting of new message

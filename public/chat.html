@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <title>Socket.io Basics</title>
+   <title>Node Chat Lite</title>
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/styles.css">
    <style>
@@ -15,13 +15,13 @@
    <div class="container">
       <div class="row">
          <div class="col-md-6 col-md-offset-3 well">
-            <p><a href="index.html">Change Settings</a></p>
+
 
             <h1 class="text-center room-title"></h1>
 
-            <ul class="messages list-group">
-               <!-- Message end up here -->
-            </ul>
+            <p class="text-center"><a href="index.html">Change Room &amp; Settings</a></p>
+
+
 
             <form id="message-form">
                <div class="form-group">
@@ -32,11 +32,14 @@
                      <input type="text" name="message" class="form-control">
                   </div>
                </div>
+               <div class="form-group">
+                  <input class="btn btn-primary btn-block" type="submit">
+               </div>
 
+               <ul class="messages list-group">
+                  <!-- Message end up here -->
+               </ul>
 
-            <div class="form-group">
-               <input class="btn btn-primary btn-block" type="submit">
-            </div>
             </form>
          </div>
       </div>
