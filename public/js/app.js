@@ -4,7 +4,7 @@ var socket = io();
 var $yourname = jQuery('.yourname');
 $yourname.text(name);
 
-jQuery('.room-title').text(room);
+jQuery('.room-title').text('# ' + room);
 
 console.log(name + ' wants to join ' + room);
 socket.on('connect', function () {

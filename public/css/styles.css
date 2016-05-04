@@ -17,8 +17,10 @@ body {
 }
 
 .banner {
-   font-weight: bold;
+   /*border:2px solid red;*/
 }
+
+
 
 
 .form-group .form-control {
@@ -35,6 +37,10 @@ body {
 
 h1 {
    margin:24px 0;
+   font-weight: bold;
+   background-color: rgb(39, 0, 54);
+   color:white;
+   padding:10px 0px;
 }
 
 .room-title {
@@ -44,6 +50,7 @@ h1 {
 .yourname{
    display:inline-block;
    color:rgb(176, 5, 0);
+   font-weight: bold;
 }
 .change-settings {
    display:inline-block;
