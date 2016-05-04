@@ -5,6 +5,7 @@
    <title>Node Chat Lite</title>
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/styles.css">
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
    <style>
       .well {
          margin-top: 35px;
@@ -19,7 +20,7 @@
 
             <h1 class="text-center room-title"></h1>
 
-            <p class="text-center"><a href="index.html">Change Room &amp; Settings</a></p>
+            You are: <p class="yourname"></p> / <p class="text-center change-settings"><a href="index.html">Change Room &amp; Settings</a></p>
 
 
 
@@ -29,11 +30,11 @@
                      <span class="input-group-addon">
                         <i class="glyphicon glyphicon-comment"></i>
                      </span>
-                     <input type="text" name="message" class="form-control">
+                     <input type="text" name="message" class="form-control input-lg">
                   </div>
                </div>
                <div class="form-group">
-                  <input class="btn btn-primary btn-block" type="submit">
+                  <input class="btn btn-primary btn-block" type="submit" value="Send Message">
                </div>
 
                <ul class="messages list-group">

@@ -7,6 +7,22 @@ body {
    -moz-background-size: cover;
    background-size: cover;
    -o-background-size: cover;
+
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size:2.5em;
+}
+
+.btn {
+   font-size: .8em;
+}
+
+.banner {
+   font-weight: bold;
+}
+
+
+.form-group .form-control {
+      font-size:.9em;
 }
 
 
@@ -19,6 +35,18 @@ body {
 
 h1 {
    margin:24px 0;
+}
+
+.room-title {
+   font-weight: bold;
+}
+
+.yourname{
+   display:inline-block;
+   color:rgb(176, 5, 0);
+}
+.change-settings {
+   display:inline-block;
 }
 
 .messages p {
